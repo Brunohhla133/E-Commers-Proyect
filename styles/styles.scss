@@ -1,11 +1,22 @@
 //Variables//
-$color1: #553e4c;
-$color2:#954f5d;
+$color1: #8d7257;
+$color2:#514438;
 $color3: #f1f1e6;
-@use "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:aqua ;
+    background-color:#b8a89a ;
+    font-family: "Oswald";
+}
+h1, h2, h3, p, a, input {
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
 }

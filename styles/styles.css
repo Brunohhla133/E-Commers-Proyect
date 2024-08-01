@@ -1,17 +1,22 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 5 | @use "mixins";
- *   | ^^^^^^^^^^^^^
- *   '
- *   styles\styles.scss 5:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @use \"mixins\";\d\a   \2502  ^^^^^^^^^^^^^\a   \2575 \a   styles\\styles.scss 5:1  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #b8a89a;
+  font-family: "Oswald";
 }
+
+h1, h2, h3, p, a, input {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
