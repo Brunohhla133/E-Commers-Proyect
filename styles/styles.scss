@@ -1,0 +1,11 @@
+//Variables//
+$color1: #553e4c;
+$color2:#954f5d;
+$color3: #f1f1e6;
+@use "mixins";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:aqua ;
+}
